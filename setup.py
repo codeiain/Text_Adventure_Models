@@ -4,10 +4,10 @@ with open('README.md', 'r', encoding='utf-8') as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name='example_pypi_package',
-    author='Tom Chen',
-    author_email='tomchen.org@gmail.com',
-    description='Example PyPI (Python Package Index) Package',
+    name='text_adventure_models',
+    author='codeIain',
+    author_email='codeiain@outlook.com',
+    description='Models for Text Adventure',
     keywords='example, pypi, package',
     long_description=long_description,
     long_description_content_type='text/markdown',
