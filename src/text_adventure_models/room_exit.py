@@ -1,4 +1,4 @@
-class Exit(object):
+class RoomExit(object):
     def __init__(self, direction, description, linksTo=""):
         self.direction = direction
         self.description = description
