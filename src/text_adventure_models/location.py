@@ -9,12 +9,10 @@ class Location(object):
     def get_description(self):
         description_string = ""
         for description in self.descriptions:
-            description_string += description.get_description()
+            description_string += description.get_description() + "<br/>"
         for poi in self.point_of_intrests:
-            description_string += poi.get_description()
+            description_string += poi.get_description() + "<br/>"
         for room_exit in self.exits:
-            description_string += room_exit.get_description()
+            description_string += room_exit.get_description() + "<br/>"
 
         return description_string
-
-

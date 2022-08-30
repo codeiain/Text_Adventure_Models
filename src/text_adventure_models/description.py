@@ -6,5 +6,7 @@ class Description(object):
         self.condition = condition
 
     def get_description(self):
-        if Condition(str(self.condition)) is Condition.NONE:
-            return self.description
+        if self.condition is Condition.NONE:
+            return self.text
+        else:
+            return ""

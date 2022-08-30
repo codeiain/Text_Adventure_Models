@@ -9,5 +9,7 @@ class RoomExit(object):
         self.target = target
 
     def get_description(self):
-        if Condition(str(self.condition)) is Condition.NONE:
+        if self.condition is Condition.NONE:
             return self.description
+        else:
+            return ""
