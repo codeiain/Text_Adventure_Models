@@ -7,6 +7,6 @@ class Description(object):
 
     def get_description(self):
         if self.condition is Condition.NONE:
-            return self.text
+            return self.text + "<br/>"
         else:
             return ""

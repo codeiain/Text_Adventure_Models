@@ -10,6 +10,6 @@ class RoomExit(object):
 
     def get_description(self):
         if self.condition is Condition.NONE:
-            return self.description
+            return self.description + "<br/>"
         else:
             return ""
