@@ -1,4 +1,4 @@
-from conditions import Condition
+from .conditions import Condition
 
 class Description(object):
     def __init__(self, text, condition):

@@ -1,4 +1,4 @@
-from conditions import Condition
+from .conditions import Condition
 
 class RoomExit(object):
     def __init__(self, direction, description, linksTo="", condition=None, target=None):

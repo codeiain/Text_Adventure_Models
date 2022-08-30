@@ -1,4 +1,4 @@
-from conditions import Condition
+from .conditions import Condition
 
 class PointOfIntrest(object):
     def __init__(
